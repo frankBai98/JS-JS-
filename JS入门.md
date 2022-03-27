@@ -1,4 +1,4 @@
-# JS数据类型
+# JS数据类型(浅析一)
 
 * JavaScript 语言的每一个值，都属于某一种数据类型。JavaScript 的数据类型，共有八种。
 1.  number 数值  
@@ -77,6 +77,22 @@ null与undefined都可以表示“空”，null表示"空值"，undefined表示"
 * 条件一:如果一个变量声明了 ，但它没有赋值，那么默认值就是undefined，而不是null
 * 条件二：如果一个函数，没有写return，那么默认 return undefined,而不是null
 * 一般前端程序员习惯会把非对象的空值写为undefined,把对象的空值写为null(习惯)
+## 四、类型转换
+
+* number=> string
+
+String(x);x + ''
+* string=> number
+
+Number(x);s-0
+
+* X=> bool
+
+Boolean(x);!!(x)
+
+* X=> string
+
+String(x);x.toString()
 
 
 
